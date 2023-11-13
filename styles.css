@@ -1,0 +1,60 @@
+html, body {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #202124; /* Dark mode background color */
+    color: #ffffff; /* Text color for dark mode */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:#e0d5d5
+}
+
+nav a:visited {
+  color:#e0d5d5; /*no cambia color luego de hacer clic*/
+}
+
+nav a:hover {
+    background-color: #36393F; /* Dark mode hover color */
+}
+
+
+#technical-analysis-chart-demo {
+    width: 1000px;
+    height: 650px;
+}
+
+#analytics-platform-chart-demo {
+    width: 900px;
+    height: 900px;
+}
